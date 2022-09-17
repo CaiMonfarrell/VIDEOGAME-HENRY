@@ -7,4 +7,4 @@ router.get('/', getVideogames)
 
 router.post('/', postVideogames)
 
-module.exports = router;
+module.exports = router; 

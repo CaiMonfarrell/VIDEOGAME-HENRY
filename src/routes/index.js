@@ -5,6 +5,7 @@ const genre = require('./genre.route')
 const videogame = require('./videogame.route.js')
 const videogames = require('./videogames.route.js')
 
+
 const router = Router();
 
 // Configurar los routers
@@ -12,7 +13,7 @@ const router = Router();
 
 router.use('/genres', genre);
 
-router.use('/videogame', videogame);
+router.use('/videogame', videogame); 
 
 router.use('/videogames', videogames)
 

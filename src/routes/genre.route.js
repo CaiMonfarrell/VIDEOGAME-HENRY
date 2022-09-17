@@ -5,4 +5,4 @@ const {getGenre} = require("../controllers/genreController.js");
 
 router.get("/", getGenre);
 
-module.exports = router;
+module.exports = router; 

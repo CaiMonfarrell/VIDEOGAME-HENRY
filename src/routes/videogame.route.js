@@ -5,4 +5,4 @@ const {getVideogameDetail, deleteVideogame} = require('../controllers/videogameC
 router.get('/:id', getVideogameDetail)
 router.delete('/:id', deleteVideogame)
 
-module.exports = router;
+module.exports = router; 
