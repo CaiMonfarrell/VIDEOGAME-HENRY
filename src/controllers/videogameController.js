@@ -5,8 +5,7 @@ const {Videogame, Genre} = conn.models;
 const {API_KEY} = process.env;
 const { Op } = require("sequelize");
 
-
-
+ 
 
 module.exports = {
     getVideogameDetail : async (req, res) =>{

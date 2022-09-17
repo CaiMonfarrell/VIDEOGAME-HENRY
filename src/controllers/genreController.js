@@ -8,20 +8,6 @@ const { API_KEY } = process.env;
 
 
 module.exports = {
-
-    // getGenre : async (req, res) =>{
-    //     try {
-    //         // Find all users
-    //         const genres = await Genre.findAll();
-
-    //         return res.send(genres);
-
-    //     } catch (error) {
-    //         console.error(error);
-    //     }
-
-
-    // },
     getGenre: async (req, res) => {
         try {
             let genres = await Genre.findAll();
